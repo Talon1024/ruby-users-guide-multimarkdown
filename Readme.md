@@ -15,3 +15,6 @@ How to build the HTML version
 
 Assuming you have Node.js and MultiMarkdown installed, run tohtml.js to convert
 all of the .md files to HTML files.
+
+To build each .md file individually, run `multimarkdown --process-html xxxxx.md`,
+where `xxxxx.md` is the markdown file you want to build.
