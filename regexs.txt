@@ -1,0 +1,4 @@
+Find useless HTML tags: </?(?:p|b|br|font|div)(?:\s+\w+=['"]?[\w\s#.]+['"]?)?>
+Find HTML hyperlinks: <a\s+href=['"]([\w\s.\\]+)['"]>([\w\s]+)</a>
+Find code tags: </?code>
+Find em tags: </?em>
