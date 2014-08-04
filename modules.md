@@ -13,6 +13,9 @@ CSS: lib/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css
 <!-- Next page -->
 <a href="procobjects.html" class="btn btn-default">Procedure objects &#9658;</a>
 
+Modules
+=======
+
 Modules in ruby are similar to classes, except:
 
 - A module can have no instances.
@@ -78,3 +81,4 @@ considerably (a similar choice was made by the designers of Java).
 </div>
 <script src="lib/jquery-1.11.1.min.js"></script>
 <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+<script src="kbdnav.js"></script>
