@@ -158,3 +158,4 @@ found, or `nil` if the pattern did not match.
 </div>
 <script src="lib/jquery-1.11.1.min.js"></script>
 <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+<script src="kbdnav.js"></script>
