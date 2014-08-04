@@ -30,11 +30,12 @@ declarations in ruby.
 
 The first character of an identifier categorizes it at a glance:
 
-|----------------|-------------------|
-| `$`            | global variable   |
-| `@`            | instance variable |
-| `[a-z]` or `_` | local variable    |
-| `[A-Z]`        | constant          |
+| First character | Variable scope    |
+|-----------------|-------------------|
+| `$`             | global variable   |
+| `@`             | instance variable |
+| `[a-z]` or `_`  | local variable    |
+| `[A-Z]`         | constant          |
 
 The only exceptions to the above are ruby's pseudo-variables:
 `self`, which always refers to the currently executing
