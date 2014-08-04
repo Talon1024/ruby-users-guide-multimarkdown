@@ -64,16 +64,16 @@ How about "Contains a hexadecimal number enclosed in angle
 brackets"?  No problem.
 
     ruby> def chab(s)   # "contains hex in angle brackets"
-        |    (s =~ /&lt;0(x|X)(\d|[a-f]|[A-F])+>/) != nil
+        |    (s =~ /<0(x|X)(\d|[a-f]|[A-F])+>/) != nil
         | end
       nil
     ruby> chab "Not this one."
       false
     ruby> chab "Maybe this? {0x35}"    # wrong kind of brackets
       false
-    ruby> chab "Or this? &lt;0x38z7e>"    # bogus hex digit
+    ruby> chab "Or this? <0x38z7e>"    # bogus hex digit
       false
-    ruby> chab "Okay, this: &lt;0xfc0004>."
+    ruby> chab "Okay, this: <0xfc0004>."
       true
 
 Though regular expressions can be puzzling at first glance, you
@@ -97,7 +97,7 @@ typing `"ruby regx.rb"` at the command line.
       print "pat> "; STDOUT.flush; pat = gets.chop
       break if pat.empty?
       re = Regexp.new(pat)
-      puts str.gsub(re,"#{st}\\&amp;#{en}")
+      puts str.gsub(re,"#{st}\\&#{en}")
     end
 
 The program requires input twice, once for a string and once for a
