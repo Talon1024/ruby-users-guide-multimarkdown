@@ -11,7 +11,7 @@ CSS: lib/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css
 <!-- Previous page -->
 <a href="singletonmethods.html" class="btn btn-default">&#9668; Singleton Methods</a>
 <!-- Next page -->
-<a href="procobjects.html" class="btn btn-default">Procedure objects &#9658;</a>
+<a href="procobjects.html" class="btn btn-default">Procedure Objects &#9658;</a>
 
 Modules
 =======
@@ -77,7 +77,7 @@ considerably (a similar choice was made by the designers of Java).
 <!-- Previous page -->
 <a href="singletonmethods.html" class="btn btn-default">&#9668; Singleton Methods</a>
 <!-- Next page -->
-<a href="procobjects.html" class="btn btn-default">Procedure objects &#9658;</a>
+<a href="procobjects.html" class="btn btn-default">Procedure Objects &#9658;</a>
 </div>
 <script src="lib/jquery-1.11.1.min.js"></script>
 <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>

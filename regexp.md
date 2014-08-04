@@ -23,6 +23,7 @@ test whether a string fits a description, encoded into a concise
 There are some characters and character combinations that have
 special meaning in these patterns, including:
 
+| Character Combination | Meaning |
 |---------|------------------------------------------------------------------------------|
 | `[]`    | Range specification (e.g., `[a-z]` means a letter in the range `a` to `z`)   |
 | `\w`    | word character; same as `[0-9A-Za-z_]`                                       |
