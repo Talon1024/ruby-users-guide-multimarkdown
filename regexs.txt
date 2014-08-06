@@ -1,5 +1,7 @@
 Find useless HTML tags: </?(?:p|b|br|font|div)(?:\s+\w+=['"]?[\w\s#.]+['"]?)?>
-Find table tags </?tr|d>
+Find titles: <h3><a(?: \w+=['"][\w\d\-_]+['"])*>([\w\s]+)</a></h3><!--[\w\s:"]+-->
+Replace titles with markdown H2s: $1\n-------------
+Find table tags </?t(?:r|d)>
 Find HTML hyperlinks: <a\s+href=['"]([\w\s.\\]+)['"]>([\w\s]+)</a>
 Find code tags: </?code>
 Find em tags: </?em>
