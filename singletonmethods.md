@@ -59,6 +59,11 @@ called *prototype-based* languages.
 <a href="accesscontrol.html" class="btn btn-default">&#9668; Access Control</a>
 <!-- Next page -->
 <a href="modules.html" class="btn btn-default">Modules &#9658;</a>
+
+Copyright (c) 2005-2008 Mark Slagell, (c) 2014 Kevin Caccamo
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "GNU Free Documentation License."
+
 </div>
 <script src="lib/jquery-1.11.1.min.js"></script>
 <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
