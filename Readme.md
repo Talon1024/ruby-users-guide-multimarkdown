@@ -20,3 +20,10 @@ all of the .md files to HTML files.
 
 To build each .md file individually, run `multimarkdown --process-html xxxxx.md`,
 where `xxxxx.md` is the markdown file you want to build.
+
+Ebooks
+-------
+
+EPUB, MOBI, AZW3, PDF versions are available under the `ebook` directory
+in this repository.
+These versions are generated from the markdown source.
